@@ -346,6 +346,9 @@
 .btn-link() {
   .button-variant-other(@link-color, transparent, transparent);
   box-shadow: none;
+  &:hover {
+    background-color: @btn-link-hover-bg;
+  }
   &:hover,
   &:focus,
   &:active {
